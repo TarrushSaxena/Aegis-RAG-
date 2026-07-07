@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv2/
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+npm-debug.log*
+
+# Environment secrets
+.env
+backend/.env
+frontend/.env.local
+frontend/.env
+
+# Logs
+*.log
+
+# Runtime data (uploaded PDFs, SQLite DB, BM25 indexes)
+backend/data/
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
